@@ -1,0 +1,683 @@
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar .navbar-collapse .form-inline .btn {
+    margin: 0 0.5rem;
+    font-weight: 650;
+}
+
+.fa-shopping-cart {
+    margin: 0 0.75rem;
+    color: gray;
+}
+
+.nav-item .font-weight-light:hover,
+.nav-item .font-weight-light {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+.search-size {
+    width: 54%;
+}
+
+.search-form {
+    margin: 0.2rem 0.2rem;
+    padding: 0.2rem 0.2rem !important;
+    border: 0.1px solid rgb(128, 128, 128);
+    border-radius: 30px;
+    background-color: rgb(241, 241, 241);
+}
+
+.search-form .formrs {
+    border-radius: 35px !important;
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.sag {
+    width: max-content;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.sepetegit {
+    margin: 1.2rem auto;
+    width: 60%;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 1)
+}
+
+.sepetegit:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.urunKapsayici {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/blue.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    height: 150px;
+    width: 270px;
+}
+
+.urunAdi {
+    position: absolute;
+    width: max-content;
+    padding: 0 0.5rem;
+    text-align: center;
+    background-color: #138496;
+    color: white;
+    top: 15px;
+    left: 10px;
+    font-size: 1rem;
+}
+
+.urunAciklamasi {
+    position: absolute;
+    width: max-content;
+    padding: 0 0.5rem;
+    text-align: center;
+    background-color: #138496;
+    color: white;
+    top: 42px;
+    left: 10px;
+    font-size: 0.8rem;
+}
+
+.urunFiyati {
+    position: absolute;
+    width: max-content;
+    padding: 0 0.5rem;
+    text-align: center;
+    background-color: #EA5252;
+    color: white;
+    bottom: 5px;
+    right: 10px;
+}
+
+.dropdown-item:focus {
+    background-color: #6dbcc9;
+}
+
+.toplam {
+    margin-left: 10px;
+}
+
+.header-kapsayici {
+    height: 400px;
+    width: 100%;
+}
+
+.header-img {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+}
+
+.header-info {
+    margin-left: 150px;
+    margin-top: 75px;
+    position: absolute;
+    width: 425px;
+    height: 270px;
+    background-color: white;
+    padding: 1rem;
+}
+
+.text-info {
+    font-size: 1.25rem;
+    color: black !important;
+    font-weight: 350;
+}
+
+.search-form .btn {
+    border-radius: 50% !important;
+}
+
+.search-form .formrs {
+    border-radius: 35px !important;
+}
+
+.info-form .form-control {
+    height: 50px;
+}
+
+.info-form .input-group {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.info-form .input-group .btn {
+    border-radius: 5px;
+}
+
+.sepet {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.urunSayisi {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    padding: 0px 0.5rem;
+    border-radius: 50px;
+    background: #EC5252;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    margin: 5rem 5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.nav-tabs>a {
+    color: #73726C;
+    font-weight: 650;
+}
+
+.nav-tabs .nav-item {
+    border: 1px solid transparent !important;
+}
+
+.nav-tabs .active {
+    border: 1px solid transparent !important;
+    border-bottom: 0.1rem solid black !important;
+}
+
+.kurslar {
+    margin-top: 15px;
+    width: 100%;
+    height: 250px;
+    background-color: #FFF7F0;
+    display: flex;
+}
+
+.kurslarInfo {
+    padding: 2rem;
+    width: 50%;
+}
+
+.kurslarInfo p {
+    font-size: 0.85rem;
+}
+
+.kurslarInfo h5 {
+    font-size: 1.1rem;
+}
+
+.kurslarInfo .kursKesfet {
+    color: #138496;
+    font-size: 0.85rem;
+    font-weight: 700 !important;
+}
+
+.kursResim {
+    position: absolute;
+    right: 0px;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+
+.digerKurslar {
+    padding-top: 30px;
+    border-top: 1px solid black;
+}
+
+.digerKurslar2 {
+    padding-top: 30px;
+}
+
+.kartlar {
+    display: flex;
+    flex-direction: row;
+}
+
+.ogrencilerGoruntuluyor {
+    margin: 10px;
+}
+
+.ogrencilerGoruntuluyor .card {
+    width: 100%;
+    height: 300px;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 5px !important;
+    padding-bottom: 0 !important;
+}
+
+.card-text {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px !important;
+    padding-bottom: 0 !important;
+}
+
+.card-rating {
+    font-weight: 700;
+    color: #EB8A2F;
+    display: inline;
+    margin-bottom: 10px !important;
+    padding-bottom: 0 !important;
+}
+
+.fiyat {
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.card-rating-number {
+    display: inline;
+    font-size: 0.75rem;
+}
+
+.card-body {
+    margin: 1px !important;
+    margin-top: 0.5rem !important;
+    padding: 1px !important;
+}
+
+.badge-warning {
+    background-color: #FFE799;
+    color: #593D00;
+    padding: 5px;
+}
+
+.bosluk {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/udemy.svg);
+    background-repeat: repeat-x;
+    background-color: #6e1a52;
+}
+
+.kapsaBosluk {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.boslukYazi {
+    margin-top: 75px;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+}
+
+.baslayin {
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    margin-top: 175px !important;
+}
+
+.baslayin:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.boslukYazi h5 {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.boslukYazi h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.kategoriText {
+    margin: 1rem;
+}
+
+.kategori {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+}
+
+.kategori .card {
+    margin: 1rem;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    flex: 0 0 20%;
+}
+
+.topics {
+    margin-top: 2rem;
+}
+
+.topics .container {
+    margin-top: 2rem;
+}
+
+.tekTopic {
+    margin-top: 1.5rem;
+}
+
+.tekTopic h6 {
+    color: rgb(15, 124, 144);
+    font-weight: 700;
+}
+
+.tekTopic p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.topics .col-6,
+.topics .col-md-3 {
+    margin-top: 3rem;
+}
+
+.egitmenOlun {
+    margin-top: 4rem;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+}
+
+.egitmenOlun .bgegit {
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: #FBFBF8;
+}
+
+.egitmenOlun-info {
+    display: flex;
+}
+
+.egitmenResim {
+    z-index: 1;
+    margin-left: 20%;
+}
+
+.egitmenInfo {
+    margin-top: 100px;
+    margin-left: 5rem;
+    z-index: 1;
+    height: 200px;
+    width: 30%;
+}
+
+.egitmenInfo p {
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+
+.egitmenInfo h1 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.egitmenInfo .btn {
+    margin-top: 1.5rem;
+    background-color: rgb(15, 124, 144);
+    height: 3rem;
+}
+
+.topics .btn {
+    background-color: rgb(15, 124, 144);
+    height: 3rem;
+}
+
+.mercedes {
+    text-align: center;
+}
+
+.egitmenOlun2 {
+    margin-top: 4rem;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+}
+
+.egitmenOlun2 .bgegit {
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: #003640;
+}
+
+.egitmenOlun-info2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.egitmenResim2 {
+    z-index: 1;
+    right: 0px;
+    margin-right: 20%;
+}
+
+.egitmenInfo2 {
+    position: static;
+    right: 0px;
+    margin-top: 100px;
+    margin-right: 5rem;
+    z-index: 1;
+    height: 200px;
+    width: 30%;
+}
+
+.egitmenInfo2 p {
+    font-size: 1.2rem;
+    font-weight: 450;
+    color: white;
+}
+
+.egitmenInfo2 h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.egitmenInfo2 .btn {
+    margin-top: 1.5rem;
+    background-color: rgb(15, 124, 144);
+    height: 3rem;
+}
+
+.yt {
+    display: flex;
+    height: 400px;
+}
+
+.vd {
+    margin-left: 10%;
+}
+
+.aciklama {
+    margin-left: 5%;
+    margin-top: 75px;
+    height: 200px;
+    width: 400px;
+}
+
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.151);
+    padding: 0px;
+    padding-top: 0rem;
+}
+
+.footerss {
+    display: flex;
+}
+
+.solFt {
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.solAlt {
+    margin-top: 0.75rem;
+    margin-right: 10rem;
+}
+
+.solAlt a {
+    display: block;
+    margin: 0.3rem;
+    color: rgb(15, 124, 144);
+    font-size: 0.9rem;
+}
+
+footer img {
+    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.sagFt {
+    height: 2rem;
+    width: 13rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.input-group-prepend .input-group-text {
+    background-color: white;
+    border-right: none;
+}
+
+.input-group-prepend select option {
+    background-color: red !important;
+    border-left: none;
+}
+
+footer p {
+    display: inline;
+    position: absolute;
+    right: 1rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    .search-size {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .search-size {
+        width: 30%;
+    }
+
+    section {
+        margin: auto;
+        padding: 2.5rem 1.5rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .mobildeSakla {
+        display: none;
+    }
+
+    .solFt {
+        flex-direction: column;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .tabliKurslar {
+        display: none;
+    }
+
+    .kategori .card {
+        margin: 1rem;
+        width: 100%;
+        list-style: none;
+        flex: 0 0 25%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .kategori .card {
+        flex: 0 0 40%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .search-size {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .search-size {
+        width: 30%;
+    }
+
+    .header-kapsayici {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-img {
+        position: relative;
+        height: 200px;
+        width: 100%;
+        background-image: url("img/bg.jpg");
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+    }
+
+    .header-info {
+        margin: 0;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        padding: 1rem;
+    }
+}
