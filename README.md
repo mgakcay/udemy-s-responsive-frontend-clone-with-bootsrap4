@@ -1,7 +1,7 @@
 # udemy-s-responsive-frontend-clone-with-bootsrap4
 
 
-I just practice on HTML, CSS and Bootstrap Framework.
+I just practice on HTML, CSS and Bootstrap4 Framework.
 
 ### Desktop view:
 
